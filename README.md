@@ -6,7 +6,7 @@ Useful Github Commands for development.
 
 #### Commands
 
-+ git config => sets the author name and email address respectively to be used with your commits.
++ git config => sets the author name and email address respectively to be used with your commits
     ```sh
     $ git config –global user.name “<name>”
     $ git config –global user.email “<email-address>”
@@ -17,7 +17,7 @@ Useful Github Commands for development.
     $ git init
     ```    
     
-+ git add  => Adds files in the to the staging area for Git.
++ git add  => Adds files in the to the staging area for git
   There are different ways to use git add 
     - To add a single file
      ```sh
@@ -28,18 +28,18 @@ Useful Github Commands for development.
      $ git add -A / git add .
      ``` 
      
-+ git commit => is like setting a checkpoint in the development process with a short message to explain what you have developed or changed in the source code.
++ git commit => is like setting a checkpoint in the development process with a short message to explain what you have developed or changed in the source code
     ```sh
     $ git commit -m "message"
     ```
      ` [` git commit saves your changes only locally `] `    
      
-+ git remote add => connects your local repository to the remote server. 
++ git remote add => connects your local repository to the remote server
     ```sh
     $ git remote add <variable name> <remote server link>
     ```
     
-+ git push => sends the committed changes to your remote repository.
++ git push => sends the committed changes to your remote repository
     ```sh
     $ git push <remote> <branch-name>
     ```
@@ -60,11 +60,24 @@ Useful Github Commands for development.
     $ git diff
     ```  
     
-+ git checkout => mostly used for switching from one branch to another. We can also use it for checking out files and commits.
++ git checkout => mostly used for switching from one branch to another. We can also use it for checking out files and commits
     ```sh
     $ git checkout <name-of-your-branch>
     ```
-    
+    - To create and switch to a branch at the same time
+    ```sh
+    $ git checkout -b <name-of-your-branch>
+    ```
+    ` [` -b stands for branch `] `    
+
++ git log => lists the version history for the current branch
+    ```sh
+    $ git log
+    ```
+    - for detailed changes 
+    ```sh
+    $ git log --summary
+    ```    
     
 #### Reference Links
 
