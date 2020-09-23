@@ -87,4 +87,4 @@
 [Git Handbook]: https://guides.github.com/introduction/git-handbook/
 [DZone]: https://dzone.com/articles/top-20-git-commands-with-examples
 
-**if you want to contribute to the project,create a pull request **
+**if you want to contribute to the project,create a pull request**
